@@ -66,3 +66,13 @@ p {
 .container #pictures {
   margin-top: 50px;
 }
+.container #contactform {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #F7B5FF;
+    padding: 20px;
+    font-family: "Lato";
+    color: #fcf7b3;
+    font-size: 28px;
+    min-height:10vh
+}
