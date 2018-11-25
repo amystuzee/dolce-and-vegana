@@ -1,13 +1,13 @@
 body {
   min-height: 100vh;
-  background: url("background.jpg") top left no-repeat;
+  background: url("background3.jpg") top left no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .container {
   width: 80%;
   margin: 20px auto;
-  background:rgba(252, 247, 179, 0.8);
+  background:rgba(252, 247, 179, 1);
   border-radius:20px;
   min-height:200vh;
 }
@@ -15,28 +15,36 @@ body {
 img {
     border-radius: 50%;
 }
-.container #logo {
+#logo {
   opacity: 1;
   display: block;
-  margin-top: 25px;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
 }
+.container #topnav {
+  margin-top: 40px;
+  margin-left: 3.5px;
+}
 a {
-    color: #53B7D1;
+    color: #fcf7b3;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 68.5px;
     text-decoration: none;
-    background-color: #fcf7b3;
+    background-color: #F7B5FF;
+    font-family: "Muli","Helvetica Neue",sans-serif;
+    font-size: 12.25px;
 }
 
 h1 {
+  margin-left: 10px;
   text-align: left;
   color: #53B7D1;
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 32px;
 }
 p {
+  margin-left: 10px;
   text-align: left;
   color: #53B7D1;
   font-family: Tahoma, Geneva, sans-serif;
