@@ -44,8 +44,16 @@ h1 {
   font-family: "Sacramento";
   font-size: 50px;
 }
+h2 {
+  text-align: center;
+  color: #53B7D1;
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 400;
+}
 p {
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: left;
   color: #53B7D1;
   font-family: "Lato";
@@ -75,4 +83,23 @@ p {
     color: #fcf7b3;
     font-size: 28px;
     min-height:10vh
+}
+#cow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#earth {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#heart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#video {
+  width: 50%;
+  margin: 0 auto;
 }
