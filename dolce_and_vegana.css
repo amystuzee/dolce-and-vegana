@@ -116,6 +116,9 @@ p {
   align: left;
   margin-left: 20px;
 }
-#aboutolivia {
-  text-align: right;
-}
+#aboutus {
+    text-align: left;
+    color: #53B7D1;
+    font-family: "Lato";
+    font-size: 16px;
+  }
