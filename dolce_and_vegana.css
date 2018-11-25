@@ -1,3 +1,4 @@
+/* the following applies across the website */
 body {
   min-height: 100vh;
   background: url("background3.jpg") top left no-repeat;
@@ -59,6 +60,7 @@ p {
   font-family: "Lato";
   font-size: 20px;
 }
+/* the follow applies to the home page */
 #lemon {
   margin-left: 65px;
   margin-right: 30px;
@@ -74,6 +76,7 @@ p {
 .container #pictures {
   margin-top: 50px;
 }
+/* the following applies to the Contact Us page */
 .container #contactform {
     margin: auto;
     border-radius: 5px;
@@ -84,6 +87,7 @@ p {
     font-size: 28px;
     min-height:10vh
 }
+/* the following applies to the Why Vegan page */
 #cow {
   display: block;
   margin-left: auto;
@@ -102,4 +106,16 @@ p {
 #video {
   width: 50%;
   margin: 0 auto;
+}
+/* the following applies to the about us page */
+#olivia {
+  align: left;
+  margin-left: 20px;
+}
+#amy {
+  align: left;
+  margin-left: 20px;
+}
+#aboutolivia {
+  text-align: right;
 }
