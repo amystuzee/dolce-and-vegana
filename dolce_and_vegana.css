@@ -10,7 +10,10 @@ body {
   margin: 20px auto;
   background:rgba(252, 247, 179, 1);
   border-radius:20px;
-  min-height:150vh;
+  min-height:135vh;
+}
+#hidden {
+  color: #fcf7b3;
 }
 /*the below makes all images round*/
 img {
@@ -19,7 +22,7 @@ img {
 .container #logo {
   opacity: 1;
   display: block;
-  margin-top: 50px;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -60,6 +63,10 @@ p {
   font-family: "Lato";
   font-size: 20px;
 }
+small {
+  color: #F7B5FF;
+  font-size: 15px;
+}
 /* the follow applies to the home page */
 #lemon {
   border-color: #F7B5FF;
@@ -74,14 +81,18 @@ p {
   margin-top: 50px;
 }
 #lemonlink {
-  padding: 2px 2px;
+  padding: 0px 0px;
+  background-color: #fcf7b3;
 }
 #tortelink {
   padding: 2px 2px;
+  background-color: #fcf7b3;
 }
 #reindeerlink {
   padding: 2px 2px;
+  background-color: #fcf7b3
 }
+
 /* the following applies to the Contact Us page */
 .container #contactform {
     margin: auto;
