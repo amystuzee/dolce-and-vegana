@@ -62,19 +62,25 @@ p {
 }
 /* the follow applies to the home page */
 #lemon {
-  margin-left: 65px;
-  margin-right: 30px;
+  border-color: #F7B5FF;
 }
 #torte {
-  margin-left: 30px;
-  margin-right: 30px;
+  border-color: #F7B5FF;
 }
 #reindeer {
-  margin-left: 30px;
-  margin-right: 30px;
+  border-color: #F7B5FF;
 }
 .container #pictures {
   margin-top: 50px;
+}
+#lemonlink {
+  padding: 2px 2px;
+}
+#tortelink {
+  padding: 2px 2px;
+}
+#reindeerlink {
+  padding: 2px 2px;
 }
 /* the following applies to the Contact Us page */
 .container #contactform {
@@ -111,10 +117,12 @@ p {
 #olivia {
   align: left;
   margin-left: 20px;
+  border-color: #F7B5FF;
 }
 #amy {
   align: left;
   margin-left: 20px;
+  border-color: #F7B5FF;
 }
 #aboutus {
     text-align: left;
@@ -122,3 +130,88 @@ p {
     font-family: "Lato";
     font-size: 16px;
   }
+  /*the following applies to the Recipes tab */
+#recipes {
+  text-align: left;
+  color: #53B7D1;
+  font-family: "Lato";
+  font-size: 16px;
+}
+#balls {
+  border-color: #F7B5FF;
+}
+#ballsrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#cake {
+  border-color: #F7B5FF;
+}
+#cakerecipe {
+    color: #53B7D1;
+    text-align: center;
+    padding: 2px 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #F7B5FF;
+    font-family: "Muli","Helvetica Neue",sans-serif;
+    font-size: 12.25px;
+}
+#rolls {
+  border-color: #F7B5FF;
+}
+#rollsrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#lemonrecipe {
+  border-color: #F7B5FF;
+}
+#muffinrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#reindeersrecipe {
+  border-color: #F7B5FF;
+}
+#reindeerrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#torterecipe {
+  border-color: #F7B5FF;
+}
+#tartrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
