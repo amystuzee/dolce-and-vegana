@@ -1,3 +1,4 @@
+/* the following applies across the website */
 body {
   min-height: 100vh;
   background: url("background3.jpg") top left no-repeat;
@@ -9,19 +10,23 @@ body {
   margin: 20px auto;
   background:rgba(252, 247, 179, 1);
   border-radius:20px;
-  min-height:200vh;
+  min-height:145vh;
+}
+#hidden {
+  color: #fcf7b3;
 }
 /*the below makes all images round*/
 img {
     border-radius: 50%;
 }
-#logo {
+.container #logo {
   opacity: 1;
   display: block;
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
 }
+
 .container #topnav {
   margin-top: 40px;
   margin-left: 3.5px;
@@ -38,15 +43,189 @@ a {
 
 h1 {
   margin-left: 10px;
-  text-align: left;
+  text-align: center;
   color: #53B7D1;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 32px;
+  font-family: "Sacramento";
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  color: #53B7D1;
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 400;
 }
 p {
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: left;
   color: #53B7D1;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: "Lato";
   font-size: 20px;
+}
+small {
+  color: #F7B5FF;
+  font-size: 15px;
+}
+/* the follow applies to the home page */
+#lemon {
+  border-color: #F7B5FF;
+}
+#torte {
+  border-color: #F7B5FF;
+}
+#reindeer {
+  border-color: #F7B5FF;
+}
+.container #pictures {
+  margin-top: 50px;
+}
+#lemonlink {
+  padding: 0px 0px;
+  background-color: #fcf7b3;
+}
+#tortelink {
+  padding: 2px 2px;
+  background-color: #fcf7b3;
+}
+#reindeerlink {
+  padding: 2px 2px;
+  background-color: #fcf7b3
+}
+
+/* the following applies to the Contact Us page */
+.container #contactform {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #F7B5FF;
+    padding: 20px;
+    font-family: "Lato";
+    color: #fcf7b3;
+    font-size: 28px;
+    min-height:10vh
+}
+/* the following applies to the Why Vegan page */
+#cow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #F7B5FF;
+}
+#earth {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #F7B5FF;
+}
+#heart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #F7B5FF;
+}
+#video {
+  width: 50%;
+  margin: 0 auto;
+}
+/* the following applies to the about us page */
+#olivia {
+  align: left;
+  margin-left: 20px;
+  border-color: #F7B5FF;
+}
+#amy {
+  align: left;
+  margin-left: 20px;
+  border-color: #F7B5FF;
+}
+#aboutus {
+    text-align: left;
+    color: #53B7D1;
+    font-family: "Lato";
+    font-size: 16px;
+  }
+  /*the following applies to the Recipes tab */
+#recipes {
+  text-align: left;
+  color: #53B7D1;
+  font-family: "Lato";
+  font-size: 16px;
+}
+#balls {
+  border-color: #F7B5FF;
+}
+#ballsrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#cake {
+  border-color: #F7B5FF;
+}
+#cakerecipe {
+    color: #53B7D1;
+    text-align: center;
+    padding: 2px 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #F7B5FF;
+    font-family: "Muli","Helvetica Neue",sans-serif;
+    font-size: 12.25px;
+}
+#rolls {
+  border-color: #F7B5FF;
+}
+#rollsrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#lemonrecipe {
+  border-color: #F7B5FF;
+}
+#muffinrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#reindeersrecipe {
+  border-color: #F7B5FF;
+}
+#reindeerrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
+}
+#torterecipe {
+  border-color: #F7B5FF;
+}
+#tartrecipe {
+  color: #53B7D1;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #F7B5FF;
+  font-family: "Muli","Helvetica Neue",sans-serif;
+  font-size: 12.25px;
 }
